@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(50, 100, 72);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.fotoportada {
+    display:block;
+    margin: 15px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 6px solid rgb(189, 177, 7) ;
+}
+
+h1 {
+    display: inline-block;
+    margin: 10px;
+    background-color: rgb(86, 125, 151);
+    text-align: center;
+    border-radius: 5px;
+    border: 4px solid rgb(189, 177, 7);
+    padding: 12px;
+}
+
+.información_personal {
+    font-size: large;
+}
+
+.cuadrillos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cuadrillo {
+    background-color: rgb(93, 123, 161);
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cuadrillo h2 {
+    background-color: rgb(19, 71, 121);
+    border-radius: 6px;
+    margin-top: 0;
+    padding: 3px;
+  }
+  
+  .cuadrillo ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cuadrillo li {
+    margin-bottom: 10px;
+  }
+
+.Enlaces {
+    text-align: justify;
+}
+
+.Sobre_mí {
+    max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
